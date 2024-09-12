@@ -5,15 +5,74 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="#011613"
+    android:backgroundTint="#011412"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="366dp"
+        android:layout_height="451dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/image_of_a_splashscreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spalshscreen"
+        tools:ignore="ExtraText,MissingConstraints" />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Madhusmita"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:lineSpacingExtra="8dp"
+        android:text="@string/spend_smarter_nsave_more"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineLarge"
+        android:textColor="#008080"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="MissingConstraints,TextSizeCheck" />
+
+    <Button
+        android:id="@+id/getstartedButton"
+        android:layout_width="212dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="124dp"
+        android:backgroundTint="@color/customTeal"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:onClick="Start"
+        android:padding="12dp"
+        android:text="@string/get_started"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="MissingConstraints"
+        tools:text="@string/get_started" />
+
+    <TextView
+        android:id="@+id/loginTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/already_have_account_log_in"
+        android:textColor="@color/white"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/getstartedButton"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
