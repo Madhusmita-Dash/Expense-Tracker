@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#011613"
+    android:backgroundTint="#011412"
+    android:orientation="vertical"
+    tools:context=".Signup">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/kdam_thmor_pro"
+        android:gravity="center"
+        android:lineSpacingExtra="8dp"
+        android:text="Register"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineLarge"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kdam_thmor_pro"
+        android:gravity="center"
+        android:lineSpacingExtra="8dp"
+        android:text="Create a new account"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineLarge"
+        android:textColor="@color/white"
+        android:textSize="26dp"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UserName :"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineLarge"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/kdam_thmor_pro"
+        />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="#B3BBC7"
+        android:ems="18"
+        android:fontFamily="@font/kdam_thmor_pro"
+        android:hint="@string/enter_your_name"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineLarge"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="DuplicateIds,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:text="Email :"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineLarge"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/kdam_thmor_pro"
+        />
+
+    <EditText
+        android:id="@+id/fontfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="#B3BBC7"
+        android:ems="18"
+        android:fontFamily="@font/kdam_thmor_pro"
+        android:hint="@string/enter_your_email"
+        android:inputType="textEmailAddress"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineLarge"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password :"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineLarge"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/kdam_thmor_pro"
+        />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="#B3BBC7"
+        android:ems="18"
+        android:fontFamily="@font/kdam_thmor_pro"
+        android:hint="password"
+        app:helperText="Reduired*"
+        app:counterEnabled="true"
+        android:inputType="textPassword"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineLarge"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset Password :"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineLarge"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/kdam_thmor_pro"
+        />
+
+    <EditText
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="#B3BBC7"
+        android:ems="18"
+        android:fontFamily="@font/kdam_thmor_pro"
+        android:hint="reset"
+        app:helperText="Reduired*"
+        app:counterEnabled="true"
+        android:inputType="textPassword"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineLarge"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="212dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/customTeal"
+        android:elevation="4dp"
+        android:fontFamily="@font/kdam_thmor_pro"
+        android:gravity="center"
+        android:onClick="Start"
+
+        android:padding="12dp"
+        android:text="Signup"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:text="Sign up" />
+
+    <TextView
+        android:id="@+id/ftr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/already_have_an_account_log_in"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="83dp"/>
+
+
+</LinearLayout>

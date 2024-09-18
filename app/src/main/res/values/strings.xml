@@ -5,4 +5,7 @@
     <string name="spend_smarter_nsave_more">Spend Smarter\nSave More</string>
     <string name="get_started">Get Started</string>
     <string name="already_have_account_log_in">Already Have Account? Log In</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="already_have_an_account_log_in">Already have an account? Log in</string>
 </resources>
