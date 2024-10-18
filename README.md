@@ -13,4 +13,4 @@ The **Expense Tracker** app is a simple and user-friendly Android application de
 - **Expense Summary**: Displays the total amount spent over different time periods (daily, weekly, monthly).
 - **Charts and Visualizations**: Graphical representation of expenses based on categories.
 - **Dark Mode**: Offers a dark theme for better visibility in low-light conditions.
-- **Offline Support**: Track expenses without needing an internet connection.
+- **Offline Support**: Track expenses without needing an internet connection..
