@@ -16,8 +16,5 @@
         android:icon="@drawable/ic_accounts"
         android:title="Accounts" />
 
-    <item
-        android:id="@+id/more"
-        android:icon="@drawable/ic_more"
-        android:title="More" />
+   
 </menu>
