@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.expensetracker.databinding.SampleCategoryItemBinding
-import com.example.expensetracker.Category
+import com.example.expensetracker.models.Category
 
 class CategoryAdapter(
     private val context: Context,
